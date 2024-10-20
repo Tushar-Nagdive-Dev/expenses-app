@@ -37,7 +37,8 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "projects/expense-lib/src/lib/styles.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",

@@ -40,3 +40,6 @@ up/expense-now-app/typings
 # System files
 up/expense-now-app/.DS_Store
 up/expense-now-app/Thumbs.db
+
+# Library
+up/expenses-now/projects/expense-lib/node_modules

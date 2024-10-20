@@ -1,14 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-expense-lib',
-  template: `
-    <p>
-      expense-lib works!
-    </p>
-  `,
-  styles: ``
+  templateUrl: './expense-lib.component.html',
+  styleUrl: './expense-lib.component.css'
 })
-export class ExpenseLibComponent {
+export class ExpenseLibComponent implements OnInit{
+
+  constructor() {}
+
+  ngOnInit(): void {
+    
+  }
 
 }

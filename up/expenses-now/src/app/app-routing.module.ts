@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'libs',
+    path: '',
     loadChildren: () => import('expense-lib').then(m => m.ExpenseLibRoutingModule)
   }
 ];
