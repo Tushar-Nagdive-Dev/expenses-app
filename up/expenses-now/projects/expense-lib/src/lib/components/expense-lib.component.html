@@ -1,14 +1,16 @@
-<div>
-  <p>Pages</p>
-</div>
-<div class="card bg-white shadow-md rounded-lg overflow-hidden">
-  <div class="p-4">
-    <h2 class="text-xl font-bold text-gray-900">Card Title</h2>
-    <p class="text-gray-700">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </p>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Learn More
-    </button>
+<div class="bg-cover bg-center bg-no-repeat img-svg">
+  <div class="card bg-white shadow-md rounded-lg overflow-hidden">
+    <div class="p-4">
+      <h2 class="text-xl font-bold text-gray-900">Expense Now</h2>
+      <p class="text-gray-700">
+        A budget is telling your money where to go, instead of wondering where it went.
+      </p>
+      <button 
+       class="border border-green-500 bg-green-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-green-600 focus:outline-none focus:shadow-outline"
+        (click)="getDashboard()"
+       >
+				Dashboard
+			</button>
+    </div>
   </div>
 </div>

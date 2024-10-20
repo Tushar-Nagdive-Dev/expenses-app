@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Route, Router, Routes } from '@angular/router';
 
 @Component({
   selector: 'lib-expense-lib',
@@ -7,10 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExpenseLibComponent implements OnInit{
 
-  constructor() {}
+  constructor(
+    private route: Router
+  ) {}
 
   ngOnInit(): void {
     
+  }
+
+  getDashboard() {
+    console.log("Call Dashboard");
+    this.route.navigate(['/dashboard']);
   }
 
 }
