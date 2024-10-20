@@ -1,0 +1,42 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+up/expense-now-app/dist
+up/expense-now-app/tmp
+up/expense-now-app/out-tsc
+up/expense-now-app/bazel-out
+
+# Node
+up/expense-now-app/node_modules
+up/expense-now-app/npm-debug.log
+up/expense-now-app/yarn-error.log
+
+# IDEs and editors
+up/expense-now-app/.idea/
+up/expense-now-app/.project
+up/expense-now-app/.classpath
+up/expense-now-app/.c9/
+up/expense-now-app/*.launch
+up/expense-now-app/.settings/
+up/expense-now-app/*.sublime-workspace
+
+# Visual Studio Code
+up/expense-now-app/.vscode
+up/expense-now-app/!.vscode/settings.json
+up/expense-now-app/!.vscode/tasks.json
+up/expense-now-app/!.vscode/launch.json
+up/expense-now-app/!.vscode/extensions.json
+up/expense-now-app/.history/*
+
+# Miscellaneous
+up/expense-now-app/.angular
+up/expense-now-app/.sass-cache/
+up/expense-now-app/connect.lock
+up/expense-now-app/coverage
+up/expense-now-app/libpeerconnection.log
+up/expense-now-app/testem.log
+up/expense-now-app/typings
+
+# System files
+up/expense-now-app/.DS_Store
+up/expense-now-app/Thumbs.db
